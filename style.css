@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: #2a49d3;
+    color: rgb(2, 12, 95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+}
+.cabecalho-imagem{
+    width: 11%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 50px;
+}
+
+.escola-imagem{
+    width: 50%;
+}
+.escola{
+    background-image: linear-gradient(#2a49d3,#29ccbe);
+    color: #16007a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 69px 0;
+}
+
+.escola-titulo{
+    padding: 24px;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+body{
+    font-family: 'Poppings', sans-serif;
+}
